@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -55,6 +55,7 @@ a{
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+    margin-right: 26px;
 }
 .services{
     margin-bottom: 119px;
@@ -63,11 +64,18 @@ a{
     display: flex;
     justify-content: space-between;
 }
+.icon{
+    margin-left: 175px;
+}
+.content-text-3{
+    margin-right: 50px;
+}
 .content-title{
     font-weight: 700;
     font-size: 18px;
     line-height: 75px;
     font-family: 'Montserrat';
+    margin-left: 175px;
 }
 .content-text{
     font-size: 13px;
@@ -76,10 +84,14 @@ a{
     align-items: flex-end;
     text-align: center;
     color: #7777;
-    font-family: 'RobotoSlab'
+    font-family: 'RobotoSlab';
+    margin-left: 200px;
+    margin-right: 26px;
 }
 .contacts{
     background-color: black;
+    /* width: 1404px; */
+    height: 679px;
 }
 .contacts-title{
     color: white;
@@ -88,19 +100,33 @@ a{
     font-weight: 700;
     font-size: 40px;
     line-height: 49px;
-    margin-bottom: 92px;
+    margin-bottom: 119px;
 }
 .header{
     margin-bottom: 41.5px;
 }
 textarea{
     resize: none;
+    width: 458px;
+    height: 212px;
+    padding-top: 14px;
+    padding-left: 22px;
+}
+textarea::placeholder{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #bbbb;
+    padding-left: 21px;
 }
 input{
-    margin-top: 42px;
+    margin-top: 28px;
     margin-left: 253px;
     width: 455px;
     height: 50px;
+    margin-right: 27px;
+    margin-bottom: 20px;
 }
 input::placeholder{
     font-weight: 700;
@@ -118,4 +144,28 @@ input::placeholder{
     font-family: 'Montserrat';
     width: 176px;
     height: 22px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+}
+.send-message{
+    margin-left: auto;
+    margin-right: auto;
+    width: 242px;
+    height: 68px;
+    font-size: 18px;
+}
+.send-message:hover{
+    cursor: pointer;
 }
